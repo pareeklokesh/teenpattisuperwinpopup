@@ -155,7 +155,9 @@ justify-content: center;
 .tab-border {
 	border-radius: 8px;
 	border: 1px solid #007397;
-	background: #000b0f;
+  background: url('../img/rewardbg.jpg') no-repeat;
+background-size: contain;
+	background-color: #000b0f;
 }
 .current_level {
   font-size: 22px;
