@@ -154,7 +154,7 @@ justify-content: center;
 .content.m-0 {
   color: #fff;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
 }
 .tab-border {
 	border-radius: 8px;
@@ -177,13 +177,14 @@ background-color: #000b0f;
 }
 .players_recharge p strong {
 	color: #fac421;
+  font-size: 12px;
 }
 .rewards {
   font-size: 30px;
   font-weight: 800;
 }
 .from_reward strong {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 800;
   color: #fac421;
 }
@@ -196,7 +197,7 @@ background-color: #000b0f;
 }
 .reward_mark {
   color: #fff;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 500;
   border: 1px solid #fff;
   border-radius: 3px;
@@ -209,7 +210,7 @@ background-color: #000b0f;
   font-weight: 600;
   background: #00303f;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .reward .addtab .nav-tabs {
   background: #00303f;
@@ -504,13 +505,13 @@ input[type="range"]::-ms-track {
   font-size: 14px;
 }
 .current_level.mb-3 {
-  font-size: 14px;
+  font-size: 12px;
 margin-bottom: 10px !important;
 }
 .from_reward .content {
   margin-bottom: 5px;
-  font-size: 14px !important;
-  min-height: 40px !important;
+  font-size: 12x !important;
+  min-height: 36px !important;
 }
 .upgrade_level .content {
   font-size: 13px;
@@ -549,9 +550,22 @@ margin-bottom: 10px !important;
   font-weight: 300;
   padding: 8px 15px;
 }
+a:hover {
+  color: #000 !important;
+}
+.reward_tabs .col-md-4 {
+  margin-bottom: 15px;
+}
+.earn_money_sec {
+  min-height: 569px;
+}
+
 
 @media (max-width: 991px) {
   .container, .container-md, .container-sm {
   max-width: 100% !important;
+}
+.earn_money {
+  margin-bottom: 25px;
 }
 }
