@@ -1,5 +1,5 @@
 body {
-	background: #00121c !important;
+	background: linear-gradient(to top, #006887, #00131c) !important;
 	font-family: 'Rubik', sans-serif !important;
 }
 .invitetitle span {
@@ -10,14 +10,14 @@ body {
 filter: drop-shadow(1px 3px #000);
   font-weight: bold;
   font-family: 'Rubik', sans-serif;
-  font-size: 40px;
+  font-size: 28px;
 }
 .invitetitle {
 	margin: 0;
 }
 .header {
   background: linear-gradient(to bottom, #001d28, #0085af 80%);
-  padding: 20px 25px;
+  padding: 10px 25px;
 }
 a {
 	text-decoration: none !important;
@@ -46,15 +46,15 @@ a {
 }
 .all_btn {
   color: #002d00;
-  margin-top: 35px;
+  margin-top: 22px;
   display: block;
   background: linear-gradient(#76de76, #01ff01);
   text-align: center;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 22px;
   border-radius: 10px;
   padding: 8px 5px;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
   box-shadow: 1px 4px 4px 2px #000;
   transition: all .4s linear;
 }
@@ -81,9 +81,9 @@ a ,.reward .nav-tabs li button {
   border: 0;
   border-radius: 0;
   color: #fff !important;
-  padding: 14px 30px;
-  font-weight: 300;
-  font-size: 22px;
+  padding: 12px 30px;
+font-weight: 300;
+font-size: 20px;
   position: relative;
 }
 .reward .nav-tabs li button.active, .reward .nav-tabs li button:hover {
@@ -106,9 +106,12 @@ a ,.reward .nav-tabs li button {
 	transform: scale(1);
 }
 .promotion h2 span {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 900;
   color: #fac421;
+}
+.promotion h2 {
+  line-height: 24px;
 }
 .promotion .all_btn {
   background: linear-gradient(#fffbcc, #ffdb2b, #ff6d01 );
@@ -122,7 +125,7 @@ a ,.reward .nav-tabs li button {
 }
 .invitaitons {
 	background: #000b0f;
-	padding: 35px 10px;
+	padding: 30px 10px;
 	border-radius: 8px;
 	text-align: center;
 	min-height: 100%;
@@ -145,7 +148,7 @@ justify-content: center;
   font-size: 15px;
   display: block;
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-top: 10px;
 }
 .content.m-0 {
@@ -373,9 +376,9 @@ input[type="range"] {
   margin-right: 0;
   width: 100%;
   height: 18px;
-  background: rgba(255, 255, 255, 0.6);
+  background: #003e53;
   border-radius: 5px;
-  background-image: linear-gradient(#003e53, #003e53);
+  background-image: linear-gradient(#008eba, #008eba);
   background-size: 70% 100%;
   background-repeat: no-repeat;
 }
@@ -487,7 +490,32 @@ input[type="range"]::-ms-track {
 .all_modal .modal-content .friend_data tbody tr td:last-child, .all_modal .modal-content .friend_data thead tr th:last-child {
   border-radius: 0px 25px 25px 0px;
 }
-
+.reward_tabs .content.m-0 {
+  font-size: 14px;
+}
+.earn_money .invitetitle span {
+  font-size: 22px;
+}
+.earn_money .bordercl {
+  padding-top: 8px;height: 100%;
+}
+.players_recharge p {
+  font-size: 14px;
+}
+.current_level.mb-3 {
+  font-size: 18px;
+}
+.from_reward .content {
+  margin-bottom: 5px;
+  font-size: 14px !important;
+  min-height: 40px !important;
+}
+.upgrade_level .content {
+  font-size: 16px;
+}
+.friend_data {
+  margin-bottom: 0;
+}
 
 @media (max-width: 991px) {
   .container, .container-md, .container-sm {
