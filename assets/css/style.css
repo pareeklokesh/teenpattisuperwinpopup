@@ -179,11 +179,11 @@ background-color: #000b0f;
 	color: #fac421;
 }
 .rewards {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 800;
 }
 .from_reward strong {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 800;
   color: #fac421;
 }
@@ -196,7 +196,7 @@ background-color: #000b0f;
 }
 .reward_mark {
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   border: 1px solid #fff;
   border-radius: 3px;
@@ -209,6 +209,7 @@ background-color: #000b0f;
   font-weight: 600;
   background: #00303f;
   border-radius: 5px;
+  font-size: 14px;
 }
 .reward .addtab .nav-tabs {
   background: #00303f;
@@ -503,7 +504,8 @@ input[type="range"]::-ms-track {
   font-size: 14px;
 }
 .current_level.mb-3 {
-  font-size: 18px;
+  font-size: 14px;
+margin-bottom: 10px !important;
 }
 .from_reward .content {
   margin-bottom: 5px;
@@ -511,7 +513,7 @@ input[type="range"]::-ms-track {
   min-height: 40px !important;
 }
 .upgrade_level .content {
-  font-size: 16px;
+  font-size: 13px;
 }
 .friend_data {
   margin-bottom: 0;
@@ -524,6 +526,28 @@ input[type="range"]::-ms-track {
   width: 82%;
   margin: 0px auto !important;
   display: block;
+}
+.players_recharge p {
+  margin-bottom: 5px;
+}
+.players_recharge p.m-0 {
+  font-size: 12px;
+}
+#profile .all_btn.reward_detail {
+  padding: 3px 10px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/*#rewarddetails .modal-dialog {
+  max-width: 740px;
+}*/
+#rewarddetails .modal-dialog .modal-body {
+  min-height: 400px;
+}
+.all_modal .modal-content th {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 8px 15px;
 }
 
 @media (max-width: 991px) {
