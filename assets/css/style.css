@@ -310,7 +310,7 @@ background: #574c15;
   height: 30px;
   border-radius: 50%;
   opacity: 1;
-  right: -27px;
+  right: -15px;
   top: -14px;
   outline: none;
   box-shadow: none !important;
@@ -515,6 +515,15 @@ input[type="range"]::-ms-track {
 }
 .friend_data {
   margin-bottom: 0;
+}
+#lv_up .modal-dialog {
+  max-width: 550px;
+}
+#lv_up .modal-dialog .content {
+  font-size: 25px;
+  width: 82%;
+  margin: 0px auto !important;
+  display: block;
 }
 
 @media (max-width: 991px) {
