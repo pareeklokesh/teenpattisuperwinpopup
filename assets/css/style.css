@@ -31,6 +31,7 @@ a {
   border-radius: 8px;
   background: #001d28;
   position: relative;
+  z-index: 1;
 }
 .earn_money img {
   margin: 22px 0;
@@ -155,9 +156,12 @@ justify-content: center;
 .tab-border {
 	border-radius: 8px;
 	border: 1px solid #007397;
-  background: url('../img/rewardbg.jpg') no-repeat;
-background-size: contain;
 	background-color: #000b0f;
+}
+#home .tab-border {
+background: url('../img/rewardbg.jpg') no-repeat;
+background-size: contain;
+background-color: #000b0f;
 }
 .current_level {
   font-size: 22px;
@@ -227,20 +231,30 @@ background-size: contain;
 font-weight: 600
 }
 .friend_data thead tr {
-  background: #00303f;
   border-radius: 8px;
+}
+.friend_data thead tr th {
+  background: #00303f;
+
 }
 .friend_data thead tr th, .friend_data tbody tr td {
   color: #fff;
-  font-size: 20px;
-  padding: 5px 10px;
+  font-size: 16px;
+  padding: 5px 15px;
 }
 .friend_data tbody tr {
   border-radius: 8px;
-  background: #574c15;
 }
 .friend_data tbody tr td {
 	font-size: 14px;
+  border: 1px solid #574c15 !important;
+background: #574c15;
+}
+.friend_data tbody tr td:last-child, .friend_data thead tr th:last-child {
+  border-radius: 0px 8px 8px 0px;
+}
+.friend_data tbody tr td:first-child, .friend_data thead tr th:first-child {
+  border-radius: 8px 0 0 8px;
 }
 .friend_data.table {
   border-collapse: separate;
@@ -464,4 +478,11 @@ input[type="range"]::-ms-track {
   width: 100%;
   height: 100%;
   border-top: 1px solid #e2c758;
+  z-index: -1;
+}
+.all_modal .modal-content .friend_data tbody tr td:first-child, .all_modal .modal-content .friend_data thead tr th:first-child {
+  border-radius: 25px 0 0 25px;
+}
+.all_modal .modal-content .friend_data tbody tr td:last-child, .all_modal .modal-content .friend_data thead tr th:last-child {
+  border-radius: 0px 25px 25px 0px;
 }
