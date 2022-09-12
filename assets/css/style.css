@@ -568,6 +568,15 @@ a:hover {
 .earn_money {
   margin-bottom: 25px;
 }
+
+}
+
+@media (max-width: 767px) {
+  .promotion .all_btn {
+  position: static;
+  margin: 0px auto !important;
+  display: block;
+}
 }
 
 @media (max-width: 580px) {
